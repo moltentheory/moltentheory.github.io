@@ -10,16 +10,29 @@
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
 
-html { scroll-behavior: smooth; scroll-padding-top: 60px; }
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 60px;
+  background: var(--black);
+  width: 100%;
+  overflow-x: hidden;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
 
 body {
   font-family: "Helvetica Neue", Arial, sans-serif;
   background: var(--black);
   color: var(--text);
+  width: 100%;
   max-width: 480px;
   margin: 0 auto;
   min-height: 100vh;
+  overflow-x: hidden;
+  overflow-wrap: break-word;
 }
+
+.info { min-width: 0; flex: 1; }
 
 h1, h2, h3, .price {
   font-family: Georgia, "Times New Roman", serif;
