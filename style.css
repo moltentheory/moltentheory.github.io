@@ -15,7 +15,7 @@ html {
   scroll-padding-top: 60px;
   background: var(--black);
   width: 100%;
-  overflow-x: hidden;
+  overflow-x: clip;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
 }
@@ -28,7 +28,7 @@ body {
   max-width: 480px;
   margin: 0 auto;
   min-height: 100vh;
-  overflow-x: hidden;
+  overflow-x: clip;
   overflow-wrap: break-word;
 }
 
