@@ -134,3 +134,10 @@ footer {
   color: var(--muted);
   border-top: 1px solid var(--border);
 }
+
+.soon {
+  text-align: center;
+  color: var(--muted);
+  font-style: italic;
+  font-size: .85rem;
+}
