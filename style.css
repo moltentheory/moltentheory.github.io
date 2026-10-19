@@ -1,6 +1,6 @@
 :root {
-  --gold: #d4af37;
-  --gold-light: #f1d97a;
+  --gold: #E7C185;
+  --gold-light: #fce1a8;
   --black: #0b0b0b;
   --card: #151515;
   --border: #2a2417;
@@ -40,7 +40,7 @@ h1, h2, h3, .price {
 
 .hero {
   text-align: center;
-  padding: 48px 16px 40px;
+  padding: 38px 16px 30px;
   background: radial-gradient(circle at top, #1f1a0c 0%, var(--black) 70%);
   border-bottom: 1px solid var(--gold);
 }
